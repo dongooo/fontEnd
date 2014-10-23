@@ -13,6 +13,7 @@ angular.module('fontEndApp')
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma',
+	   'xjn',
 	  'wdf'
     ];
   });
