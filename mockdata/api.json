@@ -1,10 +1,14 @@
 {
-	"test":"helloTest!!",
+	"test": "helloTest!!",
 
-"users":{
-"wang":{"name":"wdf"},
-"ma":{"name":"mxj"}
+	"users": {
+		"wang": {
+			"name": "wdf33"
+		},
+		"ma": {
+			"name": "mxj88"
+		}
 
-}
-	
+	}
+
 }
