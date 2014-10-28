@@ -2,6 +2,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     margin: 0;
 }
 
@@ -234,6 +235,37 @@ html, body {
 }
 
 /* ng-view 页面切换时过渡动画-slide */
+.slide {
+    left: 0;
+    width: 100%;
+}
+
+.slide.ng-enter,
+.slide.ng-leave {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.slide.ng-enter {
+    left: 100%;
+}
+
+.slide.ng-enter-active {
+    left: 0;
+}
+
+.slide.ng-leave {
+    left: 0;
+}
+
+.slide.ng-leave-active {
+    left: -100%;
+}
+
+/*-----*/
+
 .slide-pop {
     left: 0;
     width: 100%;
@@ -322,7 +354,7 @@ html, body {
 }
 
 .jk-welcome {
-    background-color: #ECF0F1;
+    background-color: #fff;
 }
 
 .jk-login {
