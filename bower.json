@@ -1,19 +1,20 @@
 {
-  "name": "font-end",
-  "version": "0.0.0",
-  "dependencies": {
-    "angular": "~1.2.0",
-    "json3": "~3.3.1",
-    "es5-shim": "~3.1.0",
-    "requirejs": "~2.1.15",
-    "bootstrap": "3.0.0",
-    "jquery": "1.11.1",
-    "angular-route": "1.2.26",
-    "angular-animate": "1.2.26"
-  },
-  "devDependencies": {
-    "angular-mocks": "~1.2.0",
-    "angular-scenario": "~1.2.0"
-  },
-  "appPath": "app"
+	"name": "font-end",
+	"version": "0.0.0",
+	"dependencies": {
+		"angular": "~1.2.0",
+		"json3": "~3.3.1",
+		"es5-shim": "~3.1.0",
+		"requirejs": "~2.1.15",
+		"bootstrap": "3.0.0",
+		"jquery": "1.11.1",
+		"angular-route": "1.2.26",
+		"angular-animate": "1.2.26",
+		"font-awesome": "3.2.1"
+	},
+	"devDependencies": {
+		"angular-mocks": "~1.2.0",
+		"angular-scenario": "~1.2.0"
+	},
+	"appPath": "app"
 }

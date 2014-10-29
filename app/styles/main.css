@@ -354,7 +354,7 @@ html, body {
 }
 
 .jk-welcome {
-    background-color: #fff;
+    background-color: #f3f4f5;
 }
 
 .jk-login {
@@ -379,6 +379,67 @@ html, body {
 .jk-test {
     background-color: #2ECC71;
     color: #f3f4f5;
+}
+
+.primary {
+    background-color: #45aeda;
+}
+
+.success {
+    background-color: #48C9B0;
+}
+
+.pink {
+    background-color: #fd7a4e;
+}
+
+.green {
+    background-color: #59d1a3;
+}
+
+.orange {
+    background-color: #ffb750;
+}
+
+.thickblue {
+    background-color: #209bce;
+}
+
+.purple {
+    background-color: #9B59B6;
+}
+
+.thickgreen {
+    background-color: #2ECC71;
+}
+
+.jk-welcome li.primary, .jk-welcome li.success, .jk-welcome li.pink, .jk-welcome li.green, .jk-welcome li.orange, .jk-welcome li.thickblue, .jk-welcome li.purple, .jk-welcome li.thickgreen {
+    display: inline-block;
+    padding: 50px 30px;
+}
+
+.jk-welcome ul > li {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 120px;
+    border-radius: 6px;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+    -moz-transition: All 0.2s ease-in-out;
+    -o-transition: All 0.2s ease-in-out;
+}
+
+.jk-welcome ul > li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+
 }
 
 
