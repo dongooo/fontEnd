@@ -14,12 +14,12 @@ angular.module('jkApp')
 	//基本配置
 	.config(function ($routeProvider) {
 		//受理
-		$routeProvider.when('/', {templateUrl: 'views/welcome.html', controller: 'welcome'});
-		$routeProvider.when('/jkValidate', {templateUrl: 'views/jkValidate.html', controller: 'jkValidate'});
-		$routeProvider.when('/jkLogin', {templateUrl: 'views/jkLogin.html', controller: 'jkLogin'});
-		$routeProvider.when('/jkDoc', {templateUrl: 'views/jkDoc.html', controller: 'jkDoc'});
-		$routeProvider.when('/jkHelp', {templateUrl: 'views/jkHelp.html', controller: 'jkHelp'});
-		$routeProvider.when('/jkTest', {templateUrl: 'views/jkTest.html', controller: 'jkTest'});
+		$routeProvider.when('/', {templateUrl: 'views/welcome.html'});
+		$routeProvider.when('/jkValidate', {templateUrl: 'views/jkValidate.html', controller: 'validCtrl'});
+		$routeProvider.when('/jkLogin', {templateUrl: 'views/jkLogin.html'});
+		$routeProvider.when('/jkDoc', {templateUrl: 'views/jkDoc.html'});
+		$routeProvider.when('/jkHelp', {templateUrl: 'views/jkHelp.html'});
+		$routeProvider.when('/jkTest', {templateUrl: 'views/jkTest.html'});
 		$routeProvider.otherwise({templateUrl: 'views/404.html'});
 	})
 
