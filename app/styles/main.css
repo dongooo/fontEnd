@@ -351,7 +351,7 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    text-align: center;
+    /*    text-align: center;*/
 }
 
 .jk-welcome {
