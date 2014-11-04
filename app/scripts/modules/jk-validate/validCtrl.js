@@ -9,5 +9,16 @@
 "use strict";
 angular.module("jkApp")
 	.controller("validCtrl", ["$scope", function ($scope) {
+		$scope.entity = {
+			"name": "",
+			"password": "",
+			"repeatPassword": "",
+			"number": "",
+			"url": "",
+			"group": ""
+		}
 
+		$scope.saveForm = function () {
+			alert("pass success")
+		}
 	}]);

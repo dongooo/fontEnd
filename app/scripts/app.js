@@ -16,7 +16,7 @@ app.config(["w5cValidatorProvider", function (w5cValidatorProvider) {
 
 	// 全局配置
 	w5cValidatorProvider.config({
-		blurTrig: false,
+		blurTrig: true,
 		showError: true,
 		removeError: true
 
@@ -42,7 +42,11 @@ app.config(["w5cValidatorProvider", function (w5cValidatorProvider) {
 			repeat: "两次密码输入不一致"
 		},
 		number: {
-			required: "数字不能为空"
+			required: "数字不能为空",
+			number: "只能输入shuzi"
+		},
+		group: {
+			required: "请选择一项"
 		}
 	});
 }]);
