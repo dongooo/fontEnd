@@ -5,7 +5,7 @@
 
         <!--form-->
         <form class="form-horizontal w5c-form demo-form" role="form"
-              w5c-form-validate="vm.validateOptions" novalidate name="validateForm">
+              w5c-form-validate="vm.validateOptions" novalidate name="validateForm" id="form">
             <div class="form-group">
                 <label class="col-sm-4 control-label">邮箱</label>
 
@@ -101,7 +101,7 @@
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-8">
                     <button class="btn btn-primary" w5c-form-submit="saveForm()">保存</button>
-                    <button class="btn btn-default">取消</button>
+                    <button class="btn btn-default" ng-click="cancelForm">取消</button>
                 </div>
             </div>
         </form>
