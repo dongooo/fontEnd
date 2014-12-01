@@ -10,6 +10,7 @@
 angular.module("jkApp")
 	.controller("validCtrl", ["$scope", function ($scope, w5cValidator) {
 		$scope.entity = {
+			"email": "",
 			"name": "",
 			"password": "",
 			"repeatPassword": "",
@@ -22,7 +23,6 @@ angular.module("jkApp")
 			alert("pass success")
 		}
 		$scope.cancelForm = function () {
-			var ele = $("#form")[0];
-			w5cValidator.removeError(ele);
+			w5cValidator.removeError()
 		}
 	}]);

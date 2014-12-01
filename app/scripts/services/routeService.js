@@ -20,6 +20,7 @@ angular.module('jkApp')
 		$routeProvider.when('/jkDoc', {templateUrl: 'views/jkDoc.html'});
 		$routeProvider.when('/jkHelp', {templateUrl: 'views/jkHelp.html'});
 		$routeProvider.when('/jkTest', {templateUrl: 'views/jkTest.html'});
+		$routeProvider.when('/jkGrid', {templateUrl: 'views/jkGrid.html', controller: 'gridCtrl'});
 		$routeProvider.otherwise({templateUrl: 'views/404.html'});
 	})
 

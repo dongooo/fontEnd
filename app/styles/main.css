@@ -45,6 +45,11 @@ html, body {
 
 /* Main menu */
 
+.menu-white {
+    font-size: 2.0em;
+    color: #ddd;
+}
+
 #menu {
     width: 100%;
     height: 45px;
@@ -140,6 +145,11 @@ html, body {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+#menu > li:first-child {
+    width: 45px;
+    text-align: center;
 }
 
 #menu ul a {
@@ -382,6 +392,10 @@ html, body {
     color: #f3f4f5;
 }
 
+.jk-grid {
+    background-color: #f3f4f5;
+}
+
 .primary {
     background-color: #45aeda;
 }
@@ -488,6 +502,27 @@ html, body {
     /*    background-color: rgba(211, 211, 211, 0.5);*/
     border-radius: 6px;
     z-index: 100;
+}
+
+.hide-error {
+    display: none;
+}
+
+/*jk-table*/
+.jk-table {
+    width: 1020px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.jk-table thead {
+    background-color: #59d1a3;
+}
+
+.jk-table thead th {
+    color: #fffcee;
+    font-size: 1.2em;
 }
 
 

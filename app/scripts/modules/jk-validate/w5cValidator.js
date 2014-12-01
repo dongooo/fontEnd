@@ -39,7 +39,7 @@ angular.module("w5c.validator", ["ng"])
 				}
 				if (!this.isEmpty($group) && !$group.hasClass("has-error")) {
 					$group.addClass("has-error");
-					$elem.after('<div class="error-box"><span class="w5c-error">' + errorMessages[0] + '</span></div>');
+					$elem.after('<span class="w5c-error">' + errorMessages[0] + '</span>');
 				}
 			};
 			this.defaultRemoveError = function (elem) {
@@ -52,7 +52,7 @@ angular.module("w5c.validator", ["ng"])
 				}
 				if (!this.isEmpty($group) && $group.hasClass("has-error")) {
 					$group.removeClass("has-error");
-					$elem.next(".error-box").remove();
+					$elem.next(".w5c-error").remove();
 				}
 			};
 			this.options = {
